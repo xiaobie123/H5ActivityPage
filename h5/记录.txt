@@ -1,0 +1,22 @@
+一个 div滚动页面中的所有div都是一个会动的图文组件
+.h5_component{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+并且是绝对定位
+
+
+
+
+
+
+
+
+
+
+
+
+第一步  添加一个壳   <div class="h5" id="h5_0_5121658528903561" style="display: none;"></div>
+
+第二步  添加一个页面  addPage
