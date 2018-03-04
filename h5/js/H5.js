@@ -7,7 +7,7 @@ var H5 =function ( ) {
     $('body').append( this.el );      //生成一个全屏滚动包裹div  并且先隐藏
 
     /**
-     * 新增一个页
+     * 新增一个页发的
      * @param {string} name 组建的名称，会加入到ClassName中
      * @param {string} text 页内的默认文本
      * @return {H5} H5对象，可以重复使用H5对象支持的方法

@@ -1,13 +1,13 @@
 var H5_loading = function  (images,firstPage) {
-        
+
         var id = this.id;
 
-        if(this._images === undefined ){ //  第一次进入
+        if(this._images === undefined ){ //  第一次进入发
 
             this._images = ( images || [] ).length;
             this._loaded = 0 ;
 
-            
+
             window[id] = this;      //   把当前对象存储在全局对象 window 中，用来进行某个图片加载完成之后的回调
 
 

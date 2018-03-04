@@ -6,7 +6,7 @@
 
     <title>IT教育网2015课程学习情况</title>
 
-    <!-- 载入所有的组件资源 -->
+    <!-- 载入所有的组件资源 辅导辅导费-->
     <script type="text/javascript" src="js/lib/jquery.js"></script>
     <script type="text/javascript" src="js/lib/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/lib/jquery.fullPage.js"></script>
@@ -68,7 +68,7 @@
         }
     </style>
 
-    
+
     <body>
     <div class="loading">
 
@@ -100,7 +100,7 @@
     <script type="text/javascript">
 
         $(function  () {
-           
+
             var h5 = new H5();
 
             h5.whenAddPage = function(){
@@ -205,7 +205,7 @@
                     animateOut:{opacity:0,bottom:0},
                     delay:500
                 })
-            
+
             .addPage()
                 .addComponent('caption',{text:'课程分布方向'})//polyline
                 .addComponent('polyline',{
@@ -258,7 +258,7 @@
                 .addComponent('bar',
                             {
                                 type : 'bar',
-                                
+
                                 width : 530,
                                 height : 600,
                                 data:[
@@ -467,7 +467,7 @@
                     css:{opacity:0,top:110,right:110},
                     animateIn:{opacity:1,top:10,right:10},
                     animateOut:{opacity:0,top:110,right:110},
-                    delay:1000 
+                    delay:1000
                 })
                 .addComponent('back',{
                     width:52,
